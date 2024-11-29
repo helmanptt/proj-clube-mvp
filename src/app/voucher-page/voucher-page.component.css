@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voucher-image {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
+}
+
+.voucher-info {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ratings .star {
+    color: #e74c3c;
+    font-size: 24px;
+}
+
+.categories span {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.voucher-details {
+    color: #7f8c8d;
+}
+
+.benefit {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.use-voucher {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #fff;
+    border: 1;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.use-voucher:hover {
+    background-color: white;
+    color: #e74c3c;
+}
